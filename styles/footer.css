@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "Inter";
+  src: local(Inter) url(../font/static/Inter/Inter-Regular.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Inter-Black";
+  src: local(Inter-Black) url(../font/static/Inter/Inter-Black.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: local(Inter-SemiBold) url(../font/static/Inter/Inter-SemiBold.ttf) format(ttf);
+}
+/* ============ */
+@font-face {
+  font-family: "Cerebri-Sans-Pro-Bold";
+  src: local(Cerebri-Sans-Pro-Bold), url(../font/static/Sans/ttf/CerebriSansPro-Bold.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Cerebri-Sans-Pro-ExtraBold";
+  src: local(Cerebri-Sans-ProExtraBold) url(../font/static/Sans/ttf/CerebriSansPro-ExtraBold.ttf) format(ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Cerebri-Sans-Pro-Regular";
+  src: local(Cerebri-Sans-Pro-Regular) url(../font/static/Sans/ttf/CerebriSansPro-Regular.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Cerebri-Sans-Pro-Heavy";
+  src: local(Cerebri-Sans-Pro-Heavy) url(../font/static/Sans/ttf/CerebriSansPro-Heavy.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Cerebri-Sans-Pro-Medium";
+  src: local(Cerebri-Sans-Pro-Medium) url(../font/static/Sans/ttf/CerebriSansPro-Medium.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Cerebri-Sans-Pro-SemiBold";
+  src: local(Cerebri-Sans-Pro-SemiBold) url(../font/static/Sans/ttf/CerebriSansPro-SemiBold.ttf) format(ttf);
+}
+/* FOOTER */
+.footer {
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Inter-Black", sans-serif;
+  font-family: "Inter", sans-serif;
+  height: 557px;
+}
+.footer_content {
+  display: flex;
+  /* justify-content: space-around;s */
+  flex-direction: column;
+}
+.footer_content_container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 1140px;
+  height: 356px;
+  margin-top: 60px;
+}
+.footer_content_container_item {
+  display: flex;
+  flex-direction: row;
+}
+.f_content_1_text {
+  width: 268px;
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer_logo p {
+  width: 106px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 40px;
+
+  color: #ffffff;
+}
+.footer_logo img {
+  width: 106px;
+  height: 57px;
+}
+.footer_logo_text {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  width: 268px;
+  height: 66px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
+/* ============== */
+.f_content_2_text {
+  width: 174px;
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 174px;
+  height: 195px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+.f_content_2_text_bold {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.f_content_2_text_normal {
+  font-weight: 400;
+}
+.f_content_3_block {
+  width: 174px;
+  height: 161px;
+  display: flex;
+  flex-direction: column;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.f_content_4_block {
+  display: flex;
+  flex-direction: column;
+}
+.f_content_4_block_nav {
+  width: 460px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+}
+.f_content_4_block_nav_text_bold {
+  width: 460px;
+  height: 55px;
+  left: 1070px;
+  top: 86px;
+
+  font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+
+  display: flex;
+  flex-direction: row;
+}
+.f_content_4_block_nav_text_normal {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.f_content_4_block_placebtn {
+  margin-top: 40px;
+  width: 460px;
+  height: 60px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+.f_content_4_block_placebtn button {
+  width: 173px;
+  height: 60px;
+  font-family: "Cerebri Sans Pro";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  background: #7fad39;
+}
+.f_content_4_block_placebtn ::placeholder {
+  font-family: "Cerebri-Sans-Pro-Regular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  color: #757575;
+}
+.f_content_4_block_footer {
+  margin-top: 40px;
+  /* width: 176px; */
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.f_content_4_block_footer img {
+  width: 24px;
+  height: 24px;
+}
+.footer_content_block {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  width: 1140px;
+}
+.footer_content_block_2_item_1 {
+  width: 753px;
+  height: 14px;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 40px;
+
+  color: #ffffff;
+}
+.footer_content_block_2_item_2 {
+  /* margin-left: 200px; */
+}
