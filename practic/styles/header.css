@@ -1,0 +1,268 @@
+@font-face {
+  font-family: "Inter";
+  src: local(Inter) url(../font/static/Inter/Inter-Regular.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Inter-Black";
+  src: local(Inter-Black) url(../font/static/Inter/Inter-Black.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: local(Inter-SemiBold) url(../font/static/Inter/Inter-SemiBold.ttf) format(ttf);
+}
+/* ============ */
+@font-face {
+  font-family: "Cerebri-Sans-Pro-Bold";
+  src: local(Cerebri-Sans-Pro-Bold), url(../font/static/Sans/ttf/CerebriSansPro-Bold.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Cerebri-Sans-Pro-ExtraBold";
+  src: local(Cerebri-Sans-ProExtraBold) url(../font/static/Sans/ttf/CerebriSansPro-ExtraBold.ttf) format(ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Cerebri-Sans-Pro-Regular";
+  src: local(Cerebri-Sans-Pro-Regular) url(../font/static/Sans/ttf/CerebriSansPro-Regular.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Cerebri-Sans-Pro-Heavy";
+  src: local(Cerebri-Sans-Pro-Heavy) url(../font/static/Sans/ttf/CerebriSansPro-Heavy.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Cerebri-Sans-Pro-Medium";
+  src: local(Cerebri-Sans-Pro-Medium) url(../font/static/Sans/ttf/CerebriSansPro-Medium.ttf) format(ttf);
+}
+@font-face {
+  font-family: "Cerebri-Sans-Pro-SemiBold";
+  src: local(Cerebri-Sans-Pro-SemiBold) url(../font/static/Sans/ttf/CerebriSansPro-SemiBold.ttf) format(ttf);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* ================ */
+.black_fon {
+  background-color: #2a2a2a;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* ==================== */
+.wrapperna {
+  display: flex;
+  width: 1140px;
+  height: 47px;
+  justify-content: space-between;
+  /* flex-direction: row; */
+  /* background-color: black; */
+  color: #fff;
+  align-items: center;
+}
+.info_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Cerebri-Sans-Pro-SemiBold", sans-serif;
+  width: 377px;
+  height: 24px;
+}
+.info_block_text_content {
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.info_block_text_1 {
+  width: 114px;
+  height: 9px;
+  font-family: "Cerebri-Sans-Pro-SemiBold", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.info_block_text_2 {
+  width: 199px;
+  height: 9px;
+  font-family: "Cerebri-Sans-Pro-SemiBold", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+/* Внимание на тег========================== */
+.icon_email {
+  margin: 0 5px 2.5px 0;
+  height: 24px;
+}
+.info_block p {
+  padding-right: 10px;
+  font-family: "Cerebri-Sans-Pro-Reqular", sans-serif;
+}
+/* ================== */
+.social_block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.social_info {
+  margin-right: 30px;
+}
+.social_info a {
+  margin: 0px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
+}
+
+.lang_auto {
+  display: flex;
+  width: 230px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
+  font-weight: 400;
+}
+.language {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 102px;
+  height: 18px;
+}
+.language_block {
+  width: 42px;
+  height: 9px;
+  font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.language_list option {
+  color: black;
+}
+.authorization {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 75px;
+  height: 24px;
+}
+.authorization img {
+  width: 18px;
+  height: 18px;
+}
+.authorization a :active {
+  color: #7fad39;
+}
+.authorization a {
+  color: #fff;
+}
+
+/*  */
+.menu_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  height: 80px;
+}
+.logo {
+  font-size: 36px;
+  line-height: 40px;
+  font-family: "Inter", sans-serif;
+  color: #2a2a2a;
+  font-weight: 900;
+  text-shadow: 0px 6px 5px rgba(42, 42, 42, 0.25);
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  color: #2a2a2a;
+  /* text-shadow: 0px 0px 0px rgba(0, 0, 0); */
+  -webkit-text-stroke: 2px black;
+}
+.logo img {
+  height: 40px;
+  padding-left: 2px;
+}
+.nav_menu {
+  display: flex;
+  font-size: 16px;
+  font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+
+  color: #2a2a2a;
+}
+.nav_menu_list {
+  display: flex;
+  flex-direction: row;
+  margin-left: -150px;
+  color: #2a2a2a;
+  line-height: 19px;
+}
+.nav_menu_obj {
+  padding: 0px 20px 0px 20px;
+}
+ul .nav_menu_obj a {
+  color: black;
+}
+#active a {
+  color: #7fad39;
+}
+.nav_menu_list_item {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.nav_menu_item {
+  margin: 0px 5px 0px 5px;
+}
+.nav_menu_item_block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  width: 103px;
+  height: 13px;
+  font-family: "Cerebri-Sans-Pro-Medium", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+/* ============= */
+.nav_menu_item_block {
+  margin-top: 5px;
+  font-family: sans-serif;
+}
+.nav_menu_item_block_gray_text {
+  color: gray;
+}
+.nav_menu_item_block_bold_text {
+  font-weight: 700;
+}
