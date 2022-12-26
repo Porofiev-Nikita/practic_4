@@ -13,28 +13,27 @@
 /* ============ */
 @font-face {
   font-family: "Cerebri-Sans-Pro-Bold";
-  src: local(Cerebri-Sans-Pro-Bold), url(../font/static/Sans/ttf/CerebriSansPro-Bold.ttf) format(ttf);
+  src: local(Cerebri-Sans-Pro-Bold), url(../font/static/Sans/ttf/CerebriSansPro-Bold.ttf) format(ttf), url(../font/static/Sans/ttf/CerebriSansPro-Bold.otf) format(otf);
 }
 @font-face {
   font-family: "Cerebri-Sans-Pro-ExtraBold";
-  src: local(Cerebri-Sans-ProExtraBold) url(../font/static/Sans/ttf/CerebriSansPro-ExtraBold.ttf) format(ttf);
-  font-weight: 600;
+  src: local(Cerebri-Sans-ProExtraBold) url(../font/static/Sans/ttf/CerebriSansPro-ExtraBold.ttf) format(ttf), url(../font/static/Sans/otf/CerebriSansPro-ExtraBold.otf) format(otf);
 }
 @font-face {
   font-family: "Cerebri-Sans-Pro-Regular";
-  src: local(Cerebri-Sans-Pro-Regular) url(../font/static/Sans/ttf/CerebriSansPro-Regular.ttf) format(ttf);
+  src: local(Cerebri-Sans-Pro-Regular) url(../font/static/Sans/ttf/CerebriSansPro-Regular.ttf) format(ttf), url(../font/static/Sans/otf/CerebriSansPro-Regular.otf) format(otf);
 }
 @font-face {
   font-family: "Cerebri-Sans-Pro-Heavy";
-  src: local(Cerebri-Sans-Pro-Heavy) url(../font/static/Sans/ttf/CerebriSansPro-Heavy.ttf) format(ttf);
+  src: local(Cerebri-Sans-Pro-Heavy) url(../font/static/Sans/ttf/CerebriSansPro-Heavy.ttf) format(ttf), url(../font/static/Sans/otf/CerebriSansPro-Heavy.otf) format(otf);
 }
 @font-face {
   font-family: "Cerebri-Sans-Pro-Medium";
-  src: local(Cerebri-Sans-Pro-Medium) url(../font/static/Sans/ttf/CerebriSansPro-Medium.ttf) format(ttf);
+  src: local(Cerebri-Sans-Pro-Medium) url(../font/static/Sans/ttf/CerebriSansPro-Medium.ttf) format(ttf), url(../font/static/Sans/otf/CerebriSansPro-Medium.otf) format(otf);
 }
 @font-face {
   font-family: "Cerebri-Sans-Pro-SemiBold";
-  src: local(Cerebri-Sans-Pro-SemiBold) url(../font/static/Sans/ttf/CerebriSansPro-SemiBold.ttf) format(ttf);
+  src: local(Cerebri-Sans-Pro-SemiBold) url(../font/static/Sans/ttf/CerebriSansPro-SemiBold.ttf) format(ttf), url(../font/static/Sans/otf/CerebriSansPro-SemiBold.otf) format(otf);
 }
 body {
   max-width: 100%;
